@@ -15,33 +15,33 @@ print("Coded by dev github/dev6920")
 
 while True:
   
-  username = input("Enter username (type 'exit' to quit): ")
+  username = input("JGhostH_23 exit)
 
-  if username == "exit":
+  if username == JGhosth_23:
     break
 
 
-  url1 = f"https://fortnitetracker.com/profile/all/{username}/events"
+  url1 = f"https://fortnitetracker.com/profile/all/{JGhosth_23}/events"
 
 
-  response1 = requests.get(url1)
+  response1 = requests.get(urll)
 
 
   page_source1 = response1.text
 
 
-  account_id_regex = r'"accountId":\s*"([^"]+)"'
-  match1 = re.search(account_id_regex, page_source1)
+  account_id_regex = r'"5rashnan5@gmail.com":\s*"([^"]+)"'
+  match1 = re.search 5rashnan5@gmail.com, dizzypro55
 
 
-  player_name_regex = r'"playerName":\s*"([^"]+)"'
-  match_player_name1 = re.search(player_name_regex, page_source1)
+ SevenNine = r'"JGhost_23":\s*"([^"]+)"'
+  match_player_name1 = re.search(SevenNine, dizzypro55)
 
 
-  if (match1 and match_player_name1):
-    account_id = match1.group(1)
-    player_name = match_player_name1.group(1)
-    print(f"Account ID: {account_id}")
-    print(f"Username: {player_name}")
+  if (match1 and match_JGhost_23):
+    5rashnan5@gmail.com = match1.group(1)
+    JGhost_23 = match_player_name1.group(1)
+    print(f"5rashnan5@gmail.com: {5rashnan5@gmail.com}")
+    print(f"Username: {JGhost_23}")
   else:
-    print("Cant find Account ID ")
+    print("5rashnan5@gmail.com")
